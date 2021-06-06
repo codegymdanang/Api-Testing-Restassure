@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Manage Pet" skipped="0" tests="2" time="6.67" timestamp="2021-06-06 03:21:00"><testcase name="Get Pet By Pet ID"><failure message="Status Check Failed! expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError">Status Check Failed! expected:&lt;200&gt; but was:&lt;404&gt;</failure><system-err>Status Check Failed! expected:&lt;200&gt; but was:&lt;404&gt;
+com.serene.tests.features.steps.PetAPISteps.verifyGetPetByIDSuccess(PetAPISteps.java:39)
+com.serene.tests.features.steps.PetScenario.verifyGetPetByIDSuccess(PetScenario.java:51)
+✽.I get Pet(src/test/resources/features/Pet/Pet.feature:8)
+</system-err></testcase><testcase name="Add new Pet"/></testsuite>
